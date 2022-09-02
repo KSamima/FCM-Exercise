@@ -2,4 +2,4 @@
 
 ## Screenshots
 
-![App Screenshot](Screenshot/Postman.png)
+![App Screenshot](Postman.png)
