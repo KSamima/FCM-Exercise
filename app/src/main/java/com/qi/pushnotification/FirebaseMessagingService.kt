@@ -40,7 +40,7 @@ class PushNotificationService : FirebaseMessagingService() {
             Notification.Builder(this, getString(R.string.channel_id))
                 .setContentTitle(title)
                 .setContentText(body)
-                .setSmallIcon(R.drawable.ic_launcher_background)
+                .setSmallIcon(R.drawable.ic_baseline_notifications_active)
                 .setAutoCancel(true)
         NotificationManagerCompat.from(this).notify(1, notification.build())
     }
